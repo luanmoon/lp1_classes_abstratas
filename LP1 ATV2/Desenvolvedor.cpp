@@ -10,8 +10,8 @@ public:
         return quantidadeDeProjetos; 
     }
 
-    float calcularSalarioFinal() overide {
-        return salarioBase + (500 * quantidadesDeProjetos);
+    float calcularSalarioFinal() override {
+        return salarioBase + (500 * quantidadeDeProjetos);
     }
 
     void exibirInformacoes() override {
