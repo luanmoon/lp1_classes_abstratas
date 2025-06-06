@@ -23,7 +23,7 @@ public:
         salarioBase = novoSalario;
     }
     
-    string getSalarioBase() {
+    float getSalarioBase() {
         return salarioBase;
     }
 
@@ -31,7 +31,7 @@ public:
         id = novoId;
     }
     
-    string getId() {
+    int getId() {
         return id;
     }
 
@@ -42,5 +42,5 @@ virtual void exibirInformacoes() {
 
 }
 
-virtual float calcularSalarioFinal() = 0
+virtual float calcularSalarioFinal() = 0;
 };
