@@ -3,6 +3,9 @@ private:
     float bonusMensal;
 
 public:
+    void setBonusMensal(float bonus) {
+        bonusMensal = bonus;
+    }
     float getBonusMensal() {
         return bonusMensal;
     }
@@ -15,4 +18,4 @@ public:
         Funcionario::exibirInformacoes();
         cout << 
     }
-}
+};
