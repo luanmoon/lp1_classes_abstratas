@@ -16,6 +16,7 @@ public:
 
     void exibirInformacoes() override {
         Funcionario::exibirInformacoes();
-        cout << 
+        cout << "Bônus: " << bonusMensal << endl;
+        cout << "Salário final: " << calcularSalarioFinal() << endl;
     }
 };
