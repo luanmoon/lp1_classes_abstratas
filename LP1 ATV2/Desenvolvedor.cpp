@@ -1,3 +1,7 @@
+#include "Desenvolvedor.h"
+#include <iostream>
+using namespace std;
+
 class Desenvolvedor : public Funcionario {
 private:
     int quantidadeDeProjetos;
