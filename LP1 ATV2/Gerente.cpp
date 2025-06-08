@@ -1,3 +1,7 @@
+#include "Gerente.h"
+#include <iostream>
+using namespace std;
+
 class Gerente : public Funcionario { 
 private:
     float bonusMensal;
