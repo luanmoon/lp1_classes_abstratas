@@ -1,3 +1,7 @@
+#include "Funcionario.h"
+#include "Desenvolvedor.h"
+#include "Gerente.h"
+#include "Estagiario.h"
 #include <iostream>
 #include <vector>
 #include <iomanip>
