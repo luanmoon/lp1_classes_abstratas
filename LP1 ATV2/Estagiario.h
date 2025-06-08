@@ -1,8 +1,7 @@
 #ifndef ESTAGIARIO_H
 #define ESTAGIARIO_H
 
-#include "Funcionario.h" // Certifique-se de que a classe Funcionario esteja corretamente definida
-
+#include "Funcionario.h"
 class Estagiario : public Funcionario {
 private:
     int horasTrabalhadas;
@@ -15,4 +14,4 @@ public:
     void exibirInformacoes() const override;
 };
 
-#endif // ESTAGIARIO_H
+#endif 
