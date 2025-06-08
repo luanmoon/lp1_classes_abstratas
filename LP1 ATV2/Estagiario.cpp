@@ -1,3 +1,7 @@
+#include "Estagiario.h"
+#include <iostream>
+using namespace std;
+
 class Estagiario : public Funcionario {
 private:
     int horasTrabalhadas;
